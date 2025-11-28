@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family:Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #2b0033, #3a0048, #55006d);
+            background-size: 250% 250%;
+            animation: bgMove 12s ease infinite;
+            color: #f8d5ff;
+            margin: 0;
+            padding: 35px 15px;
+            text-align: center;
+        }
+
+        @keyframes bgMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* NAME – darker, elegant, not cursive */
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #ffb7ef;
+            text-shadow: 0 0 10px rgba(255, 147, 222, 0.7);
+            margin-bottom: 15px;
+        }
+
+        /* Profile pic */
+        .profile-pic {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            border: 3px solid #ff8fe3;
+            box-shadow: 0 0 18px rgba(255, 120, 215, 0.8);
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        /* Card with darker transparency */
+        .card {
+            background: rgba(255, 180, 240, 0.08);
+            backdrop-filter: blur(8px);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 25px auto;
+            width: 90%;
+            max-width: 680px;
+            border: 1px solid rgba(255, 180, 240, 0.2);
+            box-shadow: 0 0 20px rgba(255, 140, 220, 0.25);
+            color: #ffd9fb;
+        }
+
+        /* Card Titles */
+        h2 {
+            font-size: 22px;
+            color: #ff9ce8;
+            margin-bottom: 12px;
+            text-shadow: 0 0 8px rgba(255, 140, 220, 0.8);
+        }
+
+        /* Text */
+        p, ul {
+            font-size: 15.5px;
+            line-height: 1.7;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li strong {
+            color: #ff9ce8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tamayo, Justine C.</h1>
+
+    <img src="me.jpg" alt="Profile Picture" class="profile-pic">
+
+    <div class="card">
+        <h2>Details</h2>
+        <ul>
+            <li><strong>Gender:</strong> Female</li>
+            <li><strong>Age:</strong> 19 yrs old</li>
+            <li><strong>Program & Year:</strong> BSIT - 2nd Year</li>
+            <li><strong>Hobbies:</strong> Sleeping, Eating, Vibing with Music</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m Justine! Pero tawagin niyo na lang akong Inday/Tinay — your certified sleepyhead and
+            professional food enthusiast. Chill lang ako pero mabilis gutumin, allergic ako sa okra at sa
+            mga taong walang emotional intelligence. If napatawa kita, congrats — rare achievement ’yon.
+        </p>
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Motto</h2>
+        <p>
+            “Be cute, stay soft, pero 'wag magpauto.”
+        </p>
+    </div>
+
+</body>
+</html>
